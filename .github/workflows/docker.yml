@@ -15,6 +15,7 @@ jobs:
         service:
           - debian-base
           - steamcmd
+          - open.mp
     steps:
       - uses: actions/checkout@v5
 
